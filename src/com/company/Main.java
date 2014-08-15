@@ -15,13 +15,10 @@ public class Main {
         nora.setHoursWorked(50);
         william.setHoursWorked(37);
 
-        System.out.println("$" + nora.getHourlyRate() + " per hour");
-        System.out.println("$" + william.getHourlyRate() + " per hour");
-        System.out.println("$" + nora.getWages() + " per week");
-        System.out.println("$" + william.getWages() + " per week");
-        System.out.println(currencyFormatter.format(nora.getHourlyRate()));
-        System.out.println(currencyFormatter.format(william.getHourlyRate()));
-        System.out.println(currencyFormatter.format(nora.getWages()));
-        System.out.println(currencyFormatter.format(william.getWages()));
+
+        System.out.println(currencyFormatter.format(nora.getHourlyRate()) + " per hour" );
+        System.out.println(currencyFormatter.format(william.getHourlyRate()) + " per hour");
+        System.out.println(currencyFormatter.format(nora.getWages()) + " per week");
+        System.out.println(currencyFormatter.format(william.getWages()) + " per week");
     }
 }
