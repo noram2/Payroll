@@ -12,7 +12,7 @@ public class Main {
         Employee william = new Employee (1600516, "william");
         nora.setHourlyRate(12.50);
         william.setHourlyRate(7.95);
-        nora.setHoursWorked(50);
+        nora.setHoursWorked(55);
         william.setHoursWorked(37);
 
 
